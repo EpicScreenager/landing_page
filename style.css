@@ -1,0 +1,41 @@
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.section-1 {
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+.hero {
+    display: flex;
+}
+
+.header-left {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: none;
+}
+
+.signup {
+    display: flex;
+}
+
+.signup-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-right {
+    justify-content: center;
+    align-items: center;
+}
