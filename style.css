@@ -96,3 +96,26 @@ ul {
     text-align: center;
     align-items: center;
 }
+
+.section-2 {
+    margin-bottom: 50px;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    padding: 100px;
+}
+
+.quote quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote p {
+    text-align: right;
+    font-weight: bold;
+}
