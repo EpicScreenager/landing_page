@@ -9,6 +9,15 @@ a {
     color: inherit;
 }
 
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    min-width: 85px;
+}
+
 ul {
     list-style-type: none;
   }
@@ -41,28 +50,19 @@ ul {
     gap: 25px;
 }
 
-/* button {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border-radius: 5px;
-    border: none;
-} */
-
-/* .signup {
+.signup {
     display: flex;
-    padding: 50px;
-}
-
-.signup-left {
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-}
-
-.signup-right {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: lightgray;
-    padding: 50px;
-} */
+    justify-content: space-around;
+    gap: 50px;
+    padding: 75px;
+}
+
+.signup-right img {
+    max-width: 400px;
+    height: auto;
+}
+
+.signup-left h1 {
+    margin: 0;
+}
