@@ -56,6 +56,8 @@ ul {
     justify-content: space-around;
     gap: 50px;
     padding: 75px;
+    font-size: 18px;
+    color: #F9FAF8;
 }
 
 .signup-right img {
@@ -65,4 +67,32 @@ ul {
 
 .signup-left h1 {
     margin: 0;
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.title {
+    text-align: center;
+    padding: 50px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.container img {
+    max-width: auto;
+    height: 125px;
+
+    /* Images look better without the border /*
+    /* border: 3px solid #3882F6;
+    border-radius: 15px; */
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+    align-items: center;
 }
